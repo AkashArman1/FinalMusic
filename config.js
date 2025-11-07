@@ -30,11 +30,11 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-    host: process.env.LAVALINK_HOST || "lavalink-rsly.onrender.com",
-    port: process.env.LAVALINK_PORT || 443,
-    password: process.env.LAVALINK_PASSWORD || "glace",
-    secure: process.env.LAVALINK_SECURE ? process.env.LAVALINK_SECURE === 'true' : true
-},
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "nexus.voidhosting.vip",
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 6004,
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "cocaine",
+                secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'false'
+            },
             
             /**
              * 🤖 BOT BEHAVIOR CONFIGURATION
