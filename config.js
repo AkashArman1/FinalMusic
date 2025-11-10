@@ -30,9 +30,9 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "nexus.voidhosting.vip",
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 6004,
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "cocaine",
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "15.235.181.136",
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 23008,
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "Himelgaylover",
                 secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'false'
             },
             
